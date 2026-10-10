@@ -12,8 +12,7 @@
 
 /* Fondo discreto para fotos de distintas proporciones */
 .card img,.cols img{background:#edf0ee}
-  .logo{width:160px;height:65px;object-fit:contain;display:block}
-</style>
+  </style>
   <script>
    /* ================================================================
    EDITA SOLO LOS NOMBRES DE LAS FOTOS AQUÍ.
@@ -23,22 +22,22 @@
    ================================================================ */
 const FOTOS = {
   portada: "imagenes/portada.jpg",
-  nosotros: "imagenes/nosotros.jpg",
-  servicio_civil: "imagenes/servicio_civil.jpg",
-  servicio_hidraulica: "imagenes/hidraulica.jpg",
-  servicio_mantenimiento: "imagenes/mantenimiento.jpg",
-  servicio_metalicas: "imagenes/metalicas.jpg",
-  servicio_topografia: "imagenes/topografia.jpg",
-  servicio_senalizacion: "imagenes/senalizacion.jpg",
-  proyecto_drenaje: "imagenes/drenaje.jpg",
-  proyecto_garita: "imagenes/garita.jpg",
-  proyecto_cerramientos: "imagenes/cerramientos.jpg",
-  proyecto_sanitarios: "imagenes/sanitarios.jpg",
+  nosotros: "imagenes/nosotros.png",
+  servicio_civil: "imagenes/servicio_civil.png",
+  servicio_hidraulica: "imagenes/hidraulica.png",
+  servicio_mantenimiento: "imagenes/mantenimiento.png",
+  servicio_metalicas: "imagenes/metalicas.png",
+  servicio_topografia: "imagenes/topografia.png",
+  servicio_senalizacion: "imagenes/señalizacion.png",
+  proyecto_drenaje: "imagenes/drenaje.png",
+  proyecto_garita: "imagenes/garita.png",
+  proyecto_cerramientos: "imagenes/cerramientos.png",
+  proyecto_sanitarios: "imagenes/sanitarios.png",
   proyecto_canales: "imagenes/canales.jpg",
-  proyecto_adecuaciones: "imagenes/adecuaciones.jpg",
-  proyecto_senalizacion: "imagenes/senalizaciones.jpg",
-  proyecto_metalicas: "imagenes/metalica.jpg",
-  seguridad: "imagenes/seguridad.jpg",
+  proyecto_adecuaciones: "imagenes/adecuaciones.png",
+  proyecto_senalizacion: "imagenes/senalizaciones.png",
+  proyecto_metalicas: "imagenes/metalica.png",
+  seguridad: "imagenes/seguridad.png",
 };
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -70,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
       Proyectos
      </a>
      <a href="#clientes">
-      Clientes
+      Sectores
      </a>
      <a href="#seguridad">
       Seguridad
@@ -83,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function () {
   </header>
   <main>
    <div class="hero" id="inicio">
-    <img alt="Obra de OBRION" class="hero-foto" data-foto="portada" src="imagenes/portada.jpg"/>
+    <img alt="Obra de OBRION" class="hero-foto" data-foto="portada" src="imagenes/avance_industrial.jpg"/>
     <div class="wrap">
      <div class="eyebrow">
       Guayaquil, Ecuador &middot; 2026
@@ -125,7 +124,7 @@ document.addEventListener("DOMContentLoaded", function () {
        Nuestro trabajo comprende obras civiles, infraestructura hidr&aacute;ulica y sanitaria, elementos de hormig&oacute;n, trabajos met&aacute;licos, mantenimiento y topograf&iacute;a.
       </p>
      </div>
-     <img alt="Fotograf&iacute;a de obra proporcionada por OBRION" data-foto="nosotros" decoding="async" loading="lazy" src="imagenes/portada.jpg"/>
+     <img alt="Fotograf&iacute;a de obra proporcionada por OBRION" data-foto="nosotros" decoding="async" loading="lazy" src="imagenes/avance_industrial.jpg"/>
     </div>
    </section>
    <section class="alt">
@@ -183,7 +182,7 @@ document.addEventListener("DOMContentLoaded", function () {
      </p>
      <div class="grid">
       <article class="card">
-       <img alt="Construcci&oacute;n y obras civiles" data-foto="servicio_civil" decoding="async" loading="lazy" src="imagenes/servicio_civil.jpg"/>
+       <img alt="Construcci&oacute;n y obras civiles" data-foto="servicio_civil" decoding="async" loading="lazy" src="imagenes/estructura_acero.jpg"/>
        <div class="body">
         <h3>
          Construcci&oacute;n y obras civiles
@@ -205,7 +204,7 @@ document.addEventListener("DOMContentLoaded", function () {
        </div>
       </article>
       <article class="card">
-       <img alt="Mantenimiento industrial" data-foto="servicio_mantenimiento" decoding="async" loading="lazy" src="imagenes/seguridad.jpg"/>
+       <img alt="Mantenimiento industrial" data-foto="servicio_mantenimiento" decoding="async" loading="lazy" src="imagenes/seguridad_industrial.jpg"/>
        <div class="body">
         <h3>
          Mantenimiento industrial
@@ -216,7 +215,7 @@ document.addEventListener("DOMContentLoaded", function () {
        </div>
       </article>
       <article class="card">
-       <img alt="Estructuras met&aacute;licas" data-foto="servicio_metalicas" decoding="async" loading="lazy" src="imagenes/servicio_civil.jpg"/>
+       <img alt="Estructuras met&aacute;licas" data-foto="servicio_metalicas" decoding="async" loading="lazy" src="imagenes/estructura_acero.jpg"/>
        <div class="body">
         <h3>
          Estructuras met&aacute;licas
@@ -227,7 +226,7 @@ document.addEventListener("DOMContentLoaded", function () {
        </div>
       </article>
       <article class="card">
-       <img alt="Topograf&iacute;a y geom&aacute;tica" data-foto="servicio_topografia" decoding="async" loading="lazy" src="imagenes/topografia.jpg"/>
+       <img alt="Topograf&iacute;a y geom&aacute;tica" data-foto="servicio_topografia" decoding="async" loading="lazy" src="imagenes/topografia_tuberias.jpg"/>
        <div class="body">
         <h3>
          Topograf&iacute;a y geom&aacute;tica
@@ -238,7 +237,7 @@ document.addEventListener("DOMContentLoaded", function () {
        </div>
       </article>
       <article class="card">
-       <img alt="Adecuaciones y se&ntilde;alizaci&oacute;n" data-foto="servicio_senalizacion" decoding="async" loading="lazy" src="imagenes/senalizaciones.jpg"/>
+       <img alt="Adecuaciones y se&ntilde;alizaci&oacute;n" data-foto="servicio_senalizacion" decoding="async" loading="lazy" src="imagenes/pintura_industrial.jpg"/>
        <div class="body">
         <h3>
          Adecuaciones y se&ntilde;alizaci&oacute;n
@@ -275,7 +274,7 @@ document.addEventListener("DOMContentLoaded", function () {
        </div>
       </article>
       <article class="card">
-       <img alt="Construcci&oacute;n de garita" data-foto="proyecto_garita" decoding="async" loading="lazy" src="imagenes/garita.jpg"/>
+       <img alt="Construcci&oacute;n de garita" data-foto="proyecto_garita" decoding="async" loading="lazy" src="imagenes/obra_concreto.jpg"/>
        <div class="body">
         <h3>
          Construcci&oacute;n de garita
@@ -286,7 +285,7 @@ document.addEventListener("DOMContentLoaded", function () {
        </div>
       </article>
       <article class="card">
-       <img alt="Muros y cerramientos" data-foto="proyecto_cerramientos" decoding="async" loading="lazy" src="imagenes/cerramientos.jpg"/>
+       <img alt="Muros y cerramientos" data-foto="proyecto_cerramientos" decoding="async" loading="lazy" src="imagenes/muros_prefabricados.jpg"/>
        <div class="body">
         <h3>
          Muros y cerramientos
@@ -308,7 +307,7 @@ document.addEventListener("DOMContentLoaded", function () {
        </div>
       </article>
       <article class="card">
-       <img alt="Canales de hormig&oacute;n" data-foto="proyecto_canales" decoding="async" loading="lazy" src="imagenes/canales.jpg"/>
+       <img alt="Canales de hormig&oacute;n" data-foto="proyecto_canales" decoding="async" loading="lazy" src="imagenes/hormigon_campo.jpg"/>
        <div class="body">
         <h3>
          Canales de hormig&oacute;n
@@ -319,7 +318,7 @@ document.addEventListener("DOMContentLoaded", function () {
        </div>
       </article>
       <article class="card">
-       <img alt="Adecuaciones industriales" data-foto="proyecto_adecuaciones" decoding="async" loading="lazy" src="imagenes/portada.jpg"/>
+       <img alt="Adecuaciones industriales" data-foto="proyecto_adecuaciones" decoding="async" loading="lazy" src="imagenes/avance_industrial.jpg"/>
        <div class="body">
         <h3>
          Adecuaciones industriales
@@ -330,7 +329,7 @@ document.addEventListener("DOMContentLoaded", function () {
        </div>
       </article>
       <article class="card">
-       <img alt="Se&ntilde;alizaci&oacute;n industrial" data-foto="proyecto_senalizacion" decoding="async" loading="lazy" src="imagenes/senalizaciones.jpg"/>
+       <img alt="Se&ntilde;alizaci&oacute;n industrial" data-foto="proyecto_senalizacion" decoding="async" loading="lazy" src="imagenes/pintura_industrial.jpg"/>
        <div class="body">
         <h3>
          Se&ntilde;alizaci&oacute;n industrial
@@ -341,7 +340,7 @@ document.addEventListener("DOMContentLoaded", function () {
        </div>
       </article>
       <article class="card">
-       <img alt="Estructuras y componentes" data-foto="proyecto_metalicas" decoding="async" loading="lazy" src="imagenes/servicio_civil.jpg"/>
+       <img alt="Estructuras y componentes" data-foto="proyecto_metalicas" decoding="async" loading="lazy" src="imagenes/estructura_acero.jpg"/>
        <div class="body">
         <h3>
          Estructuras y componentes
@@ -355,42 +354,28 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
    </section>
    <section id="clientes">
-    <div class="wrap">
-     <div class="small">
-      Referencias comerciales documentadas
+     <div class="wrap">
+      <div class="small">Experiencia sectorial</div>
+      <h2>Sectores en los que tenemos experiencia</h2>
+      <p class="intro">En OBRION S.A.S. desarrollamos soluciones de ingeniería, construcción y mantenimiento para diferentes sectores productivos, adaptándonos a los requerimientos técnicos, operativos y de seguridad de cada proyecto.</p>
+      <div class="clients">
+       <div class="client">
+        <h3>Industria agroindustrial y de fertilizantes</h3>
+        <p>Construcción y mantenimiento de infraestructura industrial, sistemas de drenaje, obras de hormigón, adecuaciones y mejoras de instalaciones operativas.</p>
+       </div>
+       <div class="client">
+        <h3>Construcción e infraestructura</h3>
+        <p>Ejecución de obras civiles, muros, cerramientos, garitas, estructuras complementarias y adecuaciones de instalaciones.</p>
+       </div>
+       <div class="client">
+        <h3>Sector agrícola y territorial</h3>
+        <p>Servicios de topografía, georreferenciación, replanteos y geomática para proyectos de infraestructura y planificación territorial.</p>
+       </div>
+      </div>
+      <p class="intro" style="margin-top:28px;font-size:14px">Preservamos la confidencialidad de la información y de las relaciones comerciales con nuestros clientes.</p>
      </div>
-     <h2>
-      Empresas que conf&iacute;an en nuestro trabajo
-     </h2>
-     <div class="clients">
-      <div class="client">
-       <h3>
-        FERMAGRI S.A.
-       </h3>
-       <p>
-        Obras civiles, alcantarillas, garitas, muros y cerramientos.
-       </p>
-      </div>
-      <div class="client">
-       <h3>
-        FERTISA AGIF C.L.
-       </h3>
-       <p>
-        Mantenimiento industrial, adecuaciones, pintura y trabajos t&eacute;cnicos.
-       </p>
-      </div>
-      <div class="client">
-       <h3>
-        AGR&Iacute;COLA Y FORESTAL EL CASTILLO FORCASAS S.A.
-       </h3>
-       <p>
-        Replanteo topogr&aacute;fico en la comuna Cerecita.
-       </p>
-      </div>
-     </div>
-    </div>
-   </section>
-   <section class="alt" id="seguridad">
+    </section>
+    <section class="alt" id="seguridad">
     <div class="wrap cols">
      <div>
       <div class="small">
@@ -409,7 +394,7 @@ document.addEventListener("DOMContentLoaded", function () {
        Los trabajos se desarrollan considerando los requisitos aplicables de seguridad, salud ocupacional y protecci&oacute;n ambiental.
       </p>
      </div>
-     <img alt="Trabajadores durante una intervenci&oacute;n de obra" data-foto="seguridad" decoding="async" loading="lazy" src="imagenes/seguridad.jpg"/>
+     <img alt="Trabajadores durante una intervenci&oacute;n de obra" data-foto="seguridad" decoding="async" loading="lazy" src="imagenes/seguridad_industrial.jpg"/>
     </div>
    </section>
   </main>
