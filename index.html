@@ -12,9 +12,16 @@
 
 /* Fondo discreto para fotos de distintas proporciones */
 .card img,.cols img{background:#edf0ee}
-    /* Logo de cabecera: tamaño fijo y proporcional */
-    header nav a:has(> img.logo){display:inline-flex;align-items:center;flex:0 0 auto}
-    header nav img.logo{display:block;width:150px!important;max-width:150px!important;height:auto!important;max-height:65px!important;object-fit:contain}
+
+/* Tamaño del logo OBRION en el encabezado */
+nav .logo {
+    width: 150px;
+    height: auto;
+    max-height: 65px;
+    object-fit: contain;
+    display: block;
+}
+
   </style>
   <script>
    /* ================================================================
@@ -71,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
      <a href="#proyectos">
       Proyectos
      </a>
-     <a href="#clientes">
+     <a href="#sectores">
       Clientes
      </a>
      <a href="#seguridad">
